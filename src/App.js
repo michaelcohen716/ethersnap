@@ -8,7 +8,6 @@ import firebase from "firebase/app";
 
 class App extends React.Component {
   async componentDidMount() {
-    // portis.showPortis()
     var firebaseConfig = {
       apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
       authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
@@ -23,11 +22,7 @@ class App extends React.Component {
   }
 
   render() {
-    return (
-      <div>
-        <Home />
-      </div>
-    );
+    return <Home />;
   }
 }
 
