@@ -1,0 +1,58 @@
+.confirm-text {
+    font-size: 26px;
+    color: white;
+}
+
+.sending-to { 
+    color: white;
+    font-size: 16px;
+}
+
+.recipient-address {
+    font-size: 12px;
+    color: yellow;
+}
+
+.gwei-input-holder {
+    height: 40px;
+    font-size: 16px;
+}
+
+.gwei-label {
+    background: white;
+    color: black;
+    width: 25%;
+    border-radius: 4px 4px 0px 0px;
+    border: 1px solid black;
+}
+
+.amount-input {
+    padding: 8px;
+    border-radius: 4px;
+    width: 50%; 
+    border: 1px solid black;
+}
+
+.confirm-button {
+    width: 25%;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.confirm-button:hover {
+    background: black;
+    color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}

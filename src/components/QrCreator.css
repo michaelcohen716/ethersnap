@@ -1,0 +1,13 @@
+.ethersnap {
+  color: white;
+  letter-spacing: 2px;
+}
+
+.public-address {
+  font-size: 10px;
+}
+
+.login-instructions {
+    font-size: 12px;
+    color: white;
+}
