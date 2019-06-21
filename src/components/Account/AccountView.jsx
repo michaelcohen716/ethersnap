@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import BigBalance from "./BigBalance";
 import Nickname from "./Nickname";
+import Transactions from "./Transactions/Transactions";
 import { web3 } from "../../services/web3";
 import { connect } from "react-redux";
 import { setAccountBalance } from "../../redux/app/actions";
@@ -67,6 +68,7 @@ function AccountView({
         />
       {balanceLoading && <div>Loading...</div>}
       {accountBalance && <BigBalance accountBalance={accountBalance} />}
+      <Transactions />
     </div>
   );
 }
