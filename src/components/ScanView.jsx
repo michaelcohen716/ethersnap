@@ -9,7 +9,8 @@ function ScanView(props) {
     await handleScan(process.env.REACT_APP_TEST_PRIVATE_KEY)
   }
 
-  const devMode = true;
+  // const devMode = true;
+  const devMode = false;
 
   if (props.privKey) {
     props.history.push('/account');
